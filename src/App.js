@@ -9,7 +9,6 @@ function App() {
   const [board, setBoard] = useState([]);
 
   useEffect(() => {
-    console.log("App efefect");
     setBoard(makeBoard());
   }, [markerCoords, moveMarkers]);
 
